@@ -1,38 +1,33 @@
 class BuckleAT13 < Formula
   desc "Lightweight bootstrapping of servers, with amazing observability and"
   homepage "https://github.com/SierraSoftworks/buckle"
-  version "1.3.6"
+  version "1.3.7"
   license "MIT"
   keg_only :versioned_formula
 
-  # buckle only publishes x86_64 binaries. The on_arm blocks reuse the amd64
-  # build so `brew readall --arch=all` can resolve a URL on every platform,
-  # while `depends_on arch: :x86_64` blocks installation on arm64 machines.
-  depends_on arch: :x86_64
-
   on_macos do
     on_arm do
-      # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.5/buckle-darwin-amd64"
-      sha256 "2e83f93e5c5ef41af58c513b3c9512d6158ba64f3133f568f4a953b012c9dc72"
+      # tap:darwin-arm64
+      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.7/buckle-darwin-arm64"
+      sha256 "e825dcaeaaead96b4aafa2b2e03e162045946d254401210cf9d3d552e9437f3c"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.6/buckle-darwin-amd64"
-      sha256 "dcecc463b13852d8b25710fb5b112e9b2959a340eec5a6f05ffb77e524f3b835"
+      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.7/buckle-darwin-amd64"
+      sha256 "6a919cf02e12154fee8660e8d9d5c05311c353bccc1deeaa214f245097069ebf"
     end
   end
 
   on_linux do
     on_arm do
-      # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.5/buckle-linux-amd64"
-      sha256 "af8bd3610775343c3ce5b5b586d188df47b343058a9cdd0d356b2b2996bc1e47"
+      # tap:linux-arm64
+      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.7/buckle-linux-arm64"
+      sha256 "cf89bbe2493b27f09ef1006d72e1f70d249822161bf4d0820b8541fd48863876"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.6/buckle-linux-amd64"
-      sha256 "128024d68eb0766bdb26e4aa80fb53d2e4e307306d33c876660a2391b0ca91ed"
+      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.7/buckle-linux-amd64"
+      sha256 "8537b0b291024ea6a48bb641fb81da455097c98e3e4bbd0281b969d7d8dbfeef"
     end
   end
 
