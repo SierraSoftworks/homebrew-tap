@@ -18,6 +18,11 @@ class GitTool < Formula
   end
 
   on_linux do
+    on_arm do
+      # tap:linux-arm64
+      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.5/git-tool-linux-arm64"
+      sha256 "c2e49d48a48847afaea25e73aeb3317fa562986fd940715eb355f50d9cc5f170"
+    end
     on_intel do
       # tap:linux-amd64
       url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.5/git-tool-linux-amd64"
