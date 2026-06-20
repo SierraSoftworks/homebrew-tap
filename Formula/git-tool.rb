@@ -5,6 +5,11 @@ class GitTool < Formula
   license "MIT"
 
   on_macos do
+    on_arm do
+      # tap:darwin-arm64
+      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.5/git-tool-darwin-arm64"
+      sha256 "d0cdd17aa6519bbeb1029c67099368d74861e5550824a638a8e5c9b2c62dd8b2"
+    end
     on_intel do
       # tap:darwin-amd64
       url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.5/git-tool-darwin-amd64"
