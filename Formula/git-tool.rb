@@ -17,6 +17,14 @@ class GitTool < Formula
     end
   end
 
+  on_linux do
+    on_intel do
+      # tap:linux-amd64
+      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.5/git-tool-linux-amd64"
+      sha256 "8ca1bca9c6d6491729a72d23cd071190084e7e2272ee883f7bd79aa33dc7849d"
+    end
+  end
+
   def install
     bin.install Dir["*"][0] => "git-tool"
   end
