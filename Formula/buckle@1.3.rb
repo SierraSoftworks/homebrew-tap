@@ -5,20 +5,18 @@ class BuckleAT13 < Formula
   license "MIT"
   keg_only :versioned_formula
 
+  depends_on arch: :x86_64
+
   on_macos do
-    on_intel do
-      # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.5/buckle-darwin-amd64"
-      sha256 "2e83f93e5c5ef41af58c513b3c9512d6158ba64f3133f568f4a953b012c9dc72"
-    end
+    # tap:darwin-amd64
+    url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.5/buckle-darwin-amd64"
+    sha256 "2e83f93e5c5ef41af58c513b3c9512d6158ba64f3133f568f4a953b012c9dc72"
   end
 
   on_linux do
-    on_intel do
-      # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.5/buckle-linux-amd64"
-      sha256 "af8bd3610775343c3ce5b5b586d188df47b343058a9cdd0d356b2b2996bc1e47"
-    end
+    # tap:linux-amd64
+    url "https://github.com/SierraSoftworks/buckle/releases/download/v1.3.5/buckle-linux-amd64"
+    sha256 "af8bd3610775343c3ce5b5b586d188df47b343058a9cdd0d356b2b2996bc1e47"
   end
 
   def install

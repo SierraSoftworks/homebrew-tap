@@ -1,5 +1,5 @@
 class Hue < Formula
-  desc "Control your Philips Hue lights from your command line"
+  desc "Control your Philips Hue lights from your command-line"
   homepage "https://github.com/SierraSoftworks/hue"
   version "1.0.0"
 
