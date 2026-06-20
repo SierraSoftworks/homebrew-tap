@@ -42,18 +42,6 @@ brew install sierrasoftworks/tap/git-tool
 | [`tailservice`](https://github.com/SierraSoftworks/tailservice) | Easily expose services on your Tailscale network | `brew install sierrasoftworks/tap/tailservice` |
 | [`hue`](https://github.com/SierraSoftworks/hue) | Control your Philips Hue lights from your command line | `brew install sierrasoftworks/tap/hue` |
 
-## How it works
-
-Each project's release workflow calls `SierraSoftworks/actions-tap`, which:
-
-1. Authenticates to this repository using an organisation-level GitHub App.
-2. Downloads the release's prebuilt binaries (`{tool}-{os}-{arch}`) and computes
-   their `sha256` checksums.
-3. Renders the formula and commits it to `Formula/`.
-
-Updates are incremental and idempotent — each build platform updates its own
-block in the formula, so no fan-in/coordination step is required.
-
 ## License
 
 [MIT](./LICENSE)
