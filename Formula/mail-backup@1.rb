@@ -1,33 +1,33 @@
 class MailBackupAT1 < Formula
   desc "Backup your Fastmail/JMAP email account to a local Git repository"
   homepage "https://mail-backup.sierrasoftworks.com/"
-  version "1.0.9"
+  version "1.0.10"
   license "MIT"
   keg_only :versioned_formula
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.9/mail-backup-darwin-arm64"
-      sha256 "2f4345b6a41f1268f36c0cb62856c8b8bfe65fe7d77c2ebaa80337c119e4ff77"
+      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.10/mail-backup-darwin-arm64"
+      sha256 "ffbda2f41625ec32339e4dce7a1f65e3566eb62fe6e80975fb45dbd43d2753b6"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.9/mail-backup-darwin-amd64"
-      sha256 "0c6ca498a2b6084b2a48e3b06861ec98c2b2046888ff4cc9bab6002d44c2cfad"
+      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.10/mail-backup-darwin-amd64"
+      sha256 "a546e08f7446839adf9de55cbb9d521a6910abbe9715432fd80d0812f8b032d3"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.9/mail-backup-linux-arm64"
-      sha256 "1f89ed64a2a60496e693afe977df1ae0bf977fe75e2886ec78cd0f31d136137b"
+      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.10/mail-backup-linux-arm64"
+      sha256 "25b6c47135adeb926f7b88a115d84af7564f4fb3ebec39c2425edafd54e13189"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.9/mail-backup-linux-amd64"
-      sha256 "141c64f439a2dd5b2f3810a2c3fea2da3c5359f5f08c2955e6ae632c9114c0c3"
+      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.10/mail-backup-linux-amd64"
+      sha256 "43f551218ae2a7583905075124ffa2319452c54932379ebd808908651a774abb"
     end
   end
 
