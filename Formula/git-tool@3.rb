@@ -1,33 +1,33 @@
 class GitToolAT3 < Formula
   desc "Stop worrying about where your code is saved and start being more productive"
   homepage "https://git-tool.sierrasoftworks.com"
-  version "3.11.7"
+  version "3.11.8"
   license "MIT"
   keg_only :versioned_formula
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.7/git-tool-darwin-arm64"
-      sha256 "8bf9b76ca83714002e2738a09168ab272caeeb804e3e6521fd35526663d095ae"
+      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.8/git-tool-darwin-arm64"
+      sha256 "ccdf6d07a4f5bb65fa441d8589d7cb6a536a507074803b1e4dcd6d3399aabae9"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.7/git-tool-darwin-amd64"
-      sha256 "d91316e7a1a6ec8f3da39b8ac9a1a69e00d1cef260b650c2242c002a483513df"
+      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.8/git-tool-darwin-amd64"
+      sha256 "b6ef2e58a7deba879a29c1e0904e31f07ed6dbbc099a57d648d765620061f965"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.7/git-tool-linux-arm64"
-      sha256 "fc8d5c8fb6175e32e38b322825472432cea65e22da97791148c04fa91cb6be14"
+      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.8/git-tool-linux-arm64"
+      sha256 "a715323701a24001631567c60c5e2817daaa1864bb60155e6a06fc3000a663de"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.7/git-tool-linux-amd64"
-      sha256 "f5615f207ca1d996e45ff311b1cb10f70fa1c81652e34c21c13060c0cc1fa804"
+      url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.8/git-tool-linux-amd64"
+      sha256 "9578cde913b3732d59e90716fe70849b2bebbb083f0f781fb5f352cc6e743520"
     end
   end
 
