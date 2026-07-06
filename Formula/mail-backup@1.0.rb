@@ -1,33 +1,33 @@
 class MailBackupAT10 < Formula
   desc "Backup your Fastmail/JMAP email account to a local Git repository"
   homepage "https://mail-backup.sierrasoftworks.com/"
-  version "1.0.10"
+  version "1.0.11"
   license "MIT"
   keg_only :versioned_formula
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.10/mail-backup-darwin-arm64"
-      sha256 "ffbda2f41625ec32339e4dce7a1f65e3566eb62fe6e80975fb45dbd43d2753b6"
+      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.11/mail-backup-darwin-arm64"
+      sha256 "da770d10ca27593ac1c368eb201c004332bfa311aafd4dc1c99d3ba9ad9bc939"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.10/mail-backup-darwin-amd64"
-      sha256 "a546e08f7446839adf9de55cbb9d521a6910abbe9715432fd80d0812f8b032d3"
+      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.11/mail-backup-darwin-amd64"
+      sha256 "4670379028282dc71cc3b727b9648de128c753eddb948a4ac7f892c34b60832f"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.10/mail-backup-linux-arm64"
-      sha256 "25b6c47135adeb926f7b88a115d84af7564f4fb3ebec39c2425edafd54e13189"
+      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.11/mail-backup-linux-arm64"
+      sha256 "796b5a680111c6677cf433ac2ffc8b3b270c06b150b981766a71f1df6fa58df2"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.10/mail-backup-linux-amd64"
-      sha256 "43f551218ae2a7583905075124ffa2319452c54932379ebd808908651a774abb"
+      url "https://github.com/SierraSoftworks/mail-backup/releases/download/v1.0.11/mail-backup-linux-amd64"
+      sha256 "1ec92ee76720aa6686ab85fe636034e29829a40622b3ba9df5a12cb372905494"
     end
   end
 
