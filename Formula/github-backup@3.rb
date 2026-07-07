@@ -1,33 +1,33 @@
 class GithubBackupAT3 < Formula
   desc "Automatically backup your GitHub repositories"
   homepage "https://github-backup.sierrasoftworks.com/"
-  version "3.4.6"
+  version "3.4.7"
   license "MIT"
   keg_only :versioned_formula
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.6/github-backup-darwin-arm64"
-      sha256 "8fcc19c6c310944f0ece52f7a6dcbbea0237b23d960c851cb1ccd66c67972368"
+      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.7/github-backup-darwin-arm64"
+      sha256 "73c96d6b509493bdf1d65fb6ad15da53fdb6907fb19dc6a1cd55b3a90af6fcad"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.6/github-backup-darwin-amd64"
-      sha256 "ee5892eb52be86da05be59d071e081e7ebadffdcb7edae791882ee960b58fc14"
+      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.7/github-backup-darwin-amd64"
+      sha256 "4264fccec4d14eed83bc94f2b73affe4a206bc3b34e16b5aa8c5cd1f9a910395"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.6/github-backup-linux-arm64"
-      sha256 "32f48e4e4317d6352156a04b5dc8b12f41965326d7789a89a4bed0379c9e9a57"
+      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.7/github-backup-linux-arm64"
+      sha256 "fd615970865eab37074c0c1f5ca042b4a8629474ccc81ff8244fbb4683d2a22d"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.6/github-backup-linux-amd64"
-      sha256 "95797812ffe3d8322ed955bee60df58def30eb50d23a56396cb57f2f7bbffeb2"
+      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.7/github-backup-linux-amd64"
+      sha256 "22b0bda84c9b2b6fc2bb22217efd6f7029afab8bdb23d70d5ba637776cab98cb"
     end
   end
 
