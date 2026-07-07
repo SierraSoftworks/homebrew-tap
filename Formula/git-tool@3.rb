@@ -9,12 +9,12 @@ class GitToolAT3 < Formula
     on_arm do
       # tap:darwin-arm64
       url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.12/git-tool-darwin-arm64"
-      sha256 "c3eec8e9ffe5e5d6b18012bfdafa7bc5feaf5e22bc53e654da1b6f1f4d4086c5"
+      sha256 "6b707001edb4ddc4a582a9c8621f0e6624f8745af7b3ef18eb456c8ec65b85e3"
     end
     on_intel do
       # tap:darwin-amd64
       url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.12/git-tool-darwin-amd64"
-      sha256 "bec8db36c32868f7b3377cc9b7228edda5c8ebd8682c855c0e4b7edef6cabb85"
+      sha256 "100d7b197b7559278561774178cf41c77db893a7a7472deb5db1cac7bb5fc541"
     end
   end
 
@@ -22,12 +22,12 @@ class GitToolAT3 < Formula
     on_arm do
       # tap:linux-arm64
       url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.12/git-tool-linux-arm64"
-      sha256 "d4812387a7f460066596a996ac721f3f509fe17af3cbf65bdf2228d50553264c"
+      sha256 "9d080e440bc7353f11ee1c99811c8ef8b041016f47e11fcf2e39f9316a9df3aa"
     end
     on_intel do
       # tap:linux-amd64
       url "https://github.com/SierraSoftworks/git-tool/releases/download/v3.11.12/git-tool-linux-amd64"
-      sha256 "74bca92a8a368e494c91add0cc006d87afcca5411c5306c1b8d234cf5142ef0e"
+      sha256 "44f350f3176b1186a52f6c8006b18d03ce6badd962bf5db986065455a7156846"
     end
   end
 
