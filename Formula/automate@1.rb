@@ -1,32 +1,32 @@
 class AutomateAT1 < Formula
   desc "Common manual tasks and use Todoist to request human involvement when necessary"
   homepage "https://github.com/SierraSoftworks/automate"
-  version "1.3.22"
+  version "1.3.23"
   keg_only :versioned_formula
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/automate/releases/download/v1.3.22/automate-darwin-arm64"
-      sha256 "5038f43b67836404c0a37ce1c567b7a967cf98b608d01aa50f2b53504c706c7d"
+      url "https://github.com/SierraSoftworks/automate/releases/download/v1.3.23/automate-darwin-arm64"
+      sha256 "7f39a3b450d4380e70f9fa5c594222c77bb4d23593937edaa44bb7f1bbaf6c13"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/automate/releases/download/v1.3.22/automate-darwin-amd64"
-      sha256 "44fc7570298a9db7410f9f35f0bbf61cdafd56f6f020d1b67ec1d5f51fd3f2f3"
+      url "https://github.com/SierraSoftworks/automate/releases/download/v1.3.23/automate-darwin-amd64"
+      sha256 "e64ea0818d8a59538bcf7e30369f23eb2ed1422ba3efd754b7afd69e0a1d0b41"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/automate/releases/download/v1.3.22/automate-linux-arm64"
-      sha256 "792189c94f6680b486d38acefda86bf6ecc02852f713c317bca63ef1cbbfb9de"
+      url "https://github.com/SierraSoftworks/automate/releases/download/v1.3.23/automate-linux-arm64"
+      sha256 "2100603c8f6253e56b0b2c81b9baea0ab1e019126a5fb64a4ef5f0439c38b24d"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/automate/releases/download/v1.3.22/automate-linux-amd64"
-      sha256 "43138f682dff21f9fd724e5aeb18d842d68d6f644e67e73551cde3abd426ebaa"
+      url "https://github.com/SierraSoftworks/automate/releases/download/v1.3.23/automate-linux-amd64"
+      sha256 "76046b43b8fa210f7cfad95fb8155c1497f5173f1b7e48d1a8335a02ea4d19a8"
     end
   end
 
