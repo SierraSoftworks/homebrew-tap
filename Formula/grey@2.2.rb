@@ -1,32 +1,32 @@
 class GreyAT22 < Formula
   desc "Lightweight OpenTelemetry native health probing system"
   homepage "https://grey.sierrasoftworks.com"
-  version "2.2.1"
+  version "2.2.2"
   keg_only :versioned_formula
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/grey/releases/download/v2.2.1/grey-darwin-arm64"
-      sha256 "ea9f11e589c49e546ea7b9589ab3b931d417be021bf7ff361b0de8accd64fea5"
+      url "https://github.com/SierraSoftworks/grey/releases/download/v2.2.2/grey-darwin-arm64"
+      sha256 "e5fa1e05940bd6fd917fe13ebb45afc9ae3130ceb5c728f98382d3162ee71335"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/grey/releases/download/v2.2.1/grey-darwin-amd64"
-      sha256 "8c58fd77bdda96ae4ad05f7452940d8ceacbb39da84e0506205a8af3550e6938"
+      url "https://github.com/SierraSoftworks/grey/releases/download/v2.2.2/grey-darwin-amd64"
+      sha256 "a451cb0a1d337fdc546cf2c4d1c174f513854c976b40872cd47778f0f36b51d7"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/grey/releases/download/v2.2.1/grey-linux-arm64"
-      sha256 "9060a8b78a3887d01323a012b89059ce9c6306c26919bc767a88ed9810e223ec"
+      url "https://github.com/SierraSoftworks/grey/releases/download/v2.2.2/grey-linux-arm64"
+      sha256 "eadda95d59dcdadad8cd8b98c5da9f3c038c159ab04ac9f374503eca12317088"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/grey/releases/download/v2.2.1/grey-linux-amd64"
-      sha256 "4b05f970b548d16d6d5ff7976a7f91815d83fc462bbd3559983b0c1de753f43f"
+      url "https://github.com/SierraSoftworks/grey/releases/download/v2.2.2/grey-linux-amd64"
+      sha256 "55855cfc7afaa4549fc970653e389178b96e4d292ab67618cbe55bfaf4549535"
     end
   end
 
