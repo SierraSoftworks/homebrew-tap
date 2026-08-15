@@ -1,32 +1,32 @@
 class Shig < Formula
   desc "Cryptographically sign and verify files using SSH keys"
   homepage "https://github.com/SierraSoftworks/shig"
-  version "1.1.2"
+  version "1.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/shig/releases/download/v1.1.2/shig-darwin-arm64"
-      sha256 "ecbcea24ee283d2926b2046af8fa4969307f7cbe9520995e6cdabae85f370577"
+      url "https://github.com/SierraSoftworks/shig/releases/download/v1.1.3/shig-darwin-arm64"
+      sha256 "dc811dd394608fa6540a519e33f35656eaac3f0ee05eb1dd4cf6de5a7effc137"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/shig/releases/download/v1.1.2/shig-darwin-amd64"
-      sha256 "57054a9c3d5dea5b5ce94ba28b5ff61d21d3d2a8443cc06280c1c157c8a3d96f"
+      url "https://github.com/SierraSoftworks/shig/releases/download/v1.1.3/shig-darwin-amd64"
+      sha256 "afb1406d3eceb4a26c8b29ac7ac7fbf32e051ae93fd413d4f6e997eb84ae68b2"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/shig/releases/download/v1.1.2/shig-linux-arm64"
-      sha256 "aa04e384493ac63556b7c36453a209c7395f8a01331b44fffc100c25294389b6"
+      url "https://github.com/SierraSoftworks/shig/releases/download/v1.1.3/shig-linux-arm64"
+      sha256 "d645a243ca3289548d535c2ee4ca849aa04379365ba540eb011ec1ed76f25c27"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/shig/releases/download/v1.1.2/shig-linux-amd64"
-      sha256 "ddfa1aff3ef19a73e385b44ca3503450be4521ca899f630a33d2fd361687cabb"
+      url "https://github.com/SierraSoftworks/shig/releases/download/v1.1.3/shig-linux-amd64"
+      sha256 "42ab4cda209c5d4c6a2ae20dd1f78d62e2ff3e77146e9c9f20f9b8e158dddc88"
     end
   end
 
