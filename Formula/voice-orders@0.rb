@@ -1,20 +1,20 @@
 class VoiceOrdersAT0 < Formula
   desc "Native voice-based macros for Linux"
   homepage "http://voice-orders.sierrasoftworks.com/"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
   keg_only :versioned_formula
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/voice-rs/releases/download/v0.1.1/voice-orders-linux-arm64"
-      sha256 "454cfc762ffc7d0067960111c1ae251887b8a4c1fbd045c3a0a53aebc8fb97f6"
+      url "https://github.com/SierraSoftworks/voice-rs/releases/download/v0.1.2/voice-orders-linux-arm64"
+      sha256 "9bacace8fbec9bc30b4e19721a5d70662935d6768fc88cd68125b017287154f1"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/voice-rs/releases/download/v0.1.1/voice-orders-linux-amd64"
-      sha256 "99705a0cd7f7d41beed3c72b0ae08d9b08d8f2b188be901fc0457048b166d62f"
+      url "https://github.com/SierraSoftworks/voice-rs/releases/download/v0.1.2/voice-orders-linux-amd64"
+      sha256 "3139c7138cb87c7b07e7b7fbe9db6e5219f9fcb34be7709d28c2e0840f2e1704"
     end
   end
 
