@@ -1,32 +1,32 @@
 class Rustak < Formula
   desc "Single-binary TAK server for ATAK and CloudTAK, secure by default"
   homepage "https://github.com/SierraSoftworks/rustak"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/rustak/releases/download/v0.1.1/rustak-darwin-arm64"
-      sha256 "b3769c04ebdfaed5e82d92b840c07e707ecd336754f7b7fe8d706fe746f759a3"
+      url "https://github.com/SierraSoftworks/rustak/releases/download/v0.1.2/rustak-darwin-arm64"
+      sha256 "0059a8bd004b12b6696428ac4455d11ef2dc4f45c6460e545de0063bf352a97b"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/rustak/releases/download/v0.1.1/rustak-darwin-amd64"
-      sha256 "d7c275b4fb012075e23788064edebe0a648bb813737eefffa6a9d91bd42abd11"
+      url "https://github.com/SierraSoftworks/rustak/releases/download/v0.1.2/rustak-darwin-amd64"
+      sha256 "2d81e287cf41c91f36442bac6a8ccb86f54cbfec8d265ad168033535a45dea23"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/rustak/releases/download/v0.1.1/rustak-linux-arm64"
-      sha256 "d7cf565e2f22111cf002806725add92f03d3166e5c3b8b621b272c431a12fd8a"
+      url "https://github.com/SierraSoftworks/rustak/releases/download/v0.1.2/rustak-linux-arm64"
+      sha256 "8aed5831bfcc858fdd03e3a1ecac6f422d7f85f35bfc541baccfb41562ba6d1c"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/rustak/releases/download/v0.1.1/rustak-linux-amd64"
-      sha256 "18ebb0918a1ee225663f549d7205e1321f5374d09ed21d931d010c26418f74bb"
+      url "https://github.com/SierraSoftworks/rustak/releases/download/v0.1.2/rustak-linux-amd64"
+      sha256 "c0a5fad91adfb7380a0a7f717895a3269eb0806c9b90d6ef850cfbdcdea5d6f8"
     end
   end
 
