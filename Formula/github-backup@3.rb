@@ -1,33 +1,33 @@
 class GithubBackupAT3 < Formula
   desc "Automatically backup your GitHub repositories"
   homepage "https://github-backup.sierrasoftworks.com/"
-  version "3.4.13"
+  version "3.4.14"
   license "MIT"
   keg_only :versioned_formula
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.13/github-backup-darwin-arm64"
-      sha256 "9ba08aa1fd28fb1088fb7b7266c85c4e306a254e6cf40e4732fd123bf850e8be"
+      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.14/github-backup-darwin-arm64"
+      sha256 "2add95541fb034d98ac1c318d8af7d27661897c4aa1f825db62eb319bc7bc388"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.13/github-backup-darwin-amd64"
-      sha256 "39328d084e78d645a768f22c0de918be506b6ebe9f5d2fcd1b8ff24fb2ee55d1"
+      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.14/github-backup-darwin-amd64"
+      sha256 "acc056399a5d9efcc85f8636ad09e3875a503f9f23de40176ae87eba0b132714"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.13/github-backup-linux-arm64"
-      sha256 "d1aaddb04de4131c662e79719b8a8e51097cab6d3056c05adebb7ca52d58f4c2"
+      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.14/github-backup-linux-arm64"
+      sha256 "95b7d75bff2f890b065a3ddcec25c857425fed769fef9ba54409ef47bfee62d6"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.13/github-backup-linux-amd64"
-      sha256 "d2db0ca5cb37b23dd0739b5854964150e07226f9efc5c3d7412b18c17ac480f9"
+      url "https://github.com/SierraSoftworks/github-backup/releases/download/v3.4.14/github-backup-linux-amd64"
+      sha256 "bfeb82305a637e6633bb3594ed804ea90cbf02e9e998cc5d034aeb7a691627eb"
     end
   end
 
