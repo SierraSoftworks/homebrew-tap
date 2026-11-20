@@ -1,32 +1,32 @@
 class Buckle < Formula
   desc "Lightweight bootstrapping of servers, with amazing observability and"
   homepage "http://buckle.sierrasoftworks.com/"
-  version "2.16.0"
+  version "2.17.0"
   license "MIT"
 
   on_macos do
     on_arm do
       # tap:darwin-arm64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v2.16.0/buckle-darwin-arm64"
-      sha256 "fdc79278b1b9e7bde54f6568423289756f93a3a65ba6c225a3a4d62f2c36e0ec"
+      url "https://github.com/SierraSoftworks/buckle/releases/download/v2.17.0/buckle-darwin-arm64"
+      sha256 "45cf71e4b2547c0936069e9454c3b09959325ac452234a5c6f3fa007e42447fc"
     end
     on_intel do
       # tap:darwin-amd64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v2.16.0/buckle-darwin-amd64"
-      sha256 "4f8da8c5b4c9fdc16017a6e2caa65e0351584208ab9d423c1ad05da1ce804762"
+      url "https://github.com/SierraSoftworks/buckle/releases/download/v2.17.0/buckle-darwin-amd64"
+      sha256 "532ffd6d240b05127a17533275e4e6a1bb35e81400b342b26befe546afd74feb"
     end
   end
 
   on_linux do
     on_arm do
       # tap:linux-arm64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v2.16.0/buckle-linux-arm64"
-      sha256 "d2a0ab750148df2e3f185da82d733cb8177a24859a9a1bd13e3dbad9da97ef1e"
+      url "https://github.com/SierraSoftworks/buckle/releases/download/v2.17.0/buckle-linux-arm64"
+      sha256 "de6ea280493fb40062cfbfa56f92c4af08580505c064cb114e4634432f5ffc45"
     end
     on_intel do
       # tap:linux-amd64
-      url "https://github.com/SierraSoftworks/buckle/releases/download/v2.16.0/buckle-linux-amd64"
-      sha256 "a8d864d665042b817fec70808faf9dd6b1f37caf3bf2cc43452f12513d0987ed"
+      url "https://github.com/SierraSoftworks/buckle/releases/download/v2.17.0/buckle-linux-amd64"
+      sha256 "2cea4b3c79d137606dd7220a0822c8a7d4971dcf7e017e33f1bcc1cf6c323e4c"
     end
   end
 
